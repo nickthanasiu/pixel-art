@@ -29,6 +29,8 @@ $('.box').click(function() {
  });
 }
 
+// call makeGrid() function when height and width have been submitted
+
 $('#sizePicker').submit(function(e) {
     e.preventDefault();
     makeGrid();
